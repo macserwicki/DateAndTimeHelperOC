@@ -13,6 +13,7 @@
 		52403BB91C80904F003D7EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52403BB71C80904F003D7EE9 /* Main.storyboard */; };
 		52403BBB1C80904F003D7EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52403BBA1C80904F003D7EE9 /* Assets.xcassets */; };
 		52403BBE1C80904F003D7EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52403BBC1C80904F003D7EE9 /* LaunchScreen.storyboard */; };
+		52403BCA1C80B02D003D7EE9 /* NSDate+NSDateHelperOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52403BC91C80B02D003D7EE9 /* NSDate+NSDateHelperOC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		52403BBA1C80904F003D7EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52403BBD1C80904F003D7EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52403BBF1C80904F003D7EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52403BC81C80B02D003D7EE9 /* NSDate+NSDateHelperOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NSDateHelperOC.h"; sourceTree = "<group>"; };
+		52403BC91C80B02D003D7EE9 /* NSDate+NSDateHelperOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NSDateHelperOC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				52403BB21C80904F003D7EE9 /* AppDelegate.m */,
 				52403BB41C80904F003D7EE9 /* ViewController.h */,
 				52403BB51C80904F003D7EE9 /* ViewController.m */,
+				52403BC81C80B02D003D7EE9 /* NSDate+NSDateHelperOC.h */,
+				52403BC91C80B02D003D7EE9 /* NSDate+NSDateHelperOC.m */,
 				52403BB71C80904F003D7EE9 /* Main.storyboard */,
 				52403BBA1C80904F003D7EE9 /* Assets.xcassets */,
 				52403BBC1C80904F003D7EE9 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				52403BB61C80904F003D7EE9 /* ViewController.m in Sources */,
 				52403BB31C80904F003D7EE9 /* AppDelegate.m in Sources */,
+				52403BCA1C80B02D003D7EE9 /* NSDate+NSDateHelperOC.m in Sources */,
 				52403BB01C80904F003D7EE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

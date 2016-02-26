@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSDate+NSDateHelperOC.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSDate *date = [[NSDate alloc] init];
+    double testSeconds = [date minuteInSeconds];
+    NSLog(@"Number of Seconds in a Minute: %f", testSeconds);
+    
+    NSLog(@"Number of seconds in a year: %f", [date yearInSeconds]);
+    
 }
 
 - (void)didReceiveMemoryWarning {
